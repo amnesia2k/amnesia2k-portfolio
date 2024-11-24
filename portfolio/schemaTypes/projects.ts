@@ -21,14 +21,9 @@ export default defineType({
 
     defineField({
       name: 'technologies',
-      type: 'array',
-      title: 'Technologies Used',
+      type: 'string',
+      title: 'Tech Stack',
       description: 'Enter Technologies used in this project',
-      of: [
-        {
-          type: 'string',
-        },
-      ],
     }),
 
     defineField({
